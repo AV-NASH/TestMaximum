@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testmaximumpackage.TestMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-16T13:30:50" hostname="AVINASH" time="0.007">
+<testsuite name="testmaximumpackage.TestMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-16T14:28:23" hostname="AVINASH" time="0.019">
   <properties/>
   <testcase name="whenMaxStringAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.003"/>
-  <testcase name="whenMaxIntAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.001"/>
+  <testcase name="whenMaxIntAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.002"/>
   <testcase name="whenMaxFloatAt_SecondPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
-  <testcase name="whenMaxFloatAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
-  <testcase name="whenMaxIntAt_SecondPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
-  <testcase name="whenMaxFloatAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxFloatAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.001"/>
+  <testcase name="whenMaxIntAt_SecondPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.001"/>
+  <testcase name="whenMaxFloatAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.001"/>
   <testcase name="whenMaxStringAt_SecondPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
-  <testcase name="whenMaxStringAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxStringAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.001"/>
   <testcase name="whenMaxIntAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
