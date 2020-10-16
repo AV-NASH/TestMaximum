@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testmaximumpackage.TestMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-15T18:49:44" hostname="AVINASH" time="0.013">
+  <properties/>
+  <testcase name="whenMaxStringAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.003"/>
+  <testcase name="whenMaxIntAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.001"/>
+  <testcase name="whenMaxFloatAt_SecondPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxFloatAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxIntAt_SecondPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxFloatAt_ThirdPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxStringAt_SecondPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxStringAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.0"/>
+  <testcase name="whenMaxIntAt_FirstPostion_ReturnMax" classname="testmaximumpackage.TestMaximumTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
