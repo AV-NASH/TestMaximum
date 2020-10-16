@@ -52,4 +52,28 @@ public class TestMaximumTest {
         Assert.assertEquals(max,testMaximum.findMax(a,b,c));
     }
 
+    @Test
+    public void whenMaxStringAt_FirstPostion_ReturnMax() {
+        TestMaximum testMaximum=new TestMaximum();
+        String max, a="Peach",b="Apple",c="Banana";
+        max=a;
+        Assert.assertEquals(max,testMaximum.findMax(a,b,c));
+    }
+
+    @Test
+    public void whenMaxStringAt_SecondPostion_ReturnMax() {
+        TestMaximum testMaximum=new TestMaximum();
+        String max,a="Apple",b="Peach",c="Banana";
+        max=b;
+        Assert.assertEquals(max,testMaximum.findMax(a,b,c));
+    }
+
+    @Test
+    public void whenMaxStringAt_ThirdPostion_ReturnMax() {
+        TestMaximum testMaximum=new TestMaximum();
+        String max,a="Apple",b="Banana",c="Peach";
+        max=c;
+        Assert.assertEquals(max,testMaximum.findMax(a,b,c));
+    }
+
 }
