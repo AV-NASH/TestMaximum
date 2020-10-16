@@ -12,7 +12,7 @@ public class FindMaximum<E extends  Comparable> {
 
         public E findMaxThroughClass(){
 
-            return findMax(value1,value2,value3);
+             return findMax(value1,value2,value3);
         }
 
     public static  <E extends  Comparable> E findMax(E...value) {
@@ -24,7 +24,12 @@ public class FindMaximum<E extends  Comparable> {
                 if (max.compareTo(value[index]) < 0) max = value[index];
             }
         }
+        printMax(max);
         return max;
+
+    }
+    public static <E extends  Comparable> void printMax(E max) {
+        System.out.println("Max value is.."+ max);
     }
 
     }

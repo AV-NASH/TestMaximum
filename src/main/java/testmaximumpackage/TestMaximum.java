@@ -10,11 +10,11 @@ public class TestMaximum {
         FindMaximum findMaximumString=new FindMaximum("Apple","Peach","Banana");
 
         System.out.println("Welcome to test maximum program");
-        System.out.println("Max of 3  Integer number is.. "+findMaximumInt.findMaxThroughClass());
-        System.out.println("Max of 3 float number is.. "+findMaximumFloat.findMaxThroughClass());
-        System.out.println("Max of 3 float number is.. "+findMaximumString.findMaxThroughClass());
+        findMaximumInt.findMaxThroughClass();
+        findMaximumFloat.findMaxThroughClass();
+        findMaximumString.findMaxThroughClass();
         System.out.println("When more than 3 parameters are passed..with values 23,56,33,54,22,77,99,65");
-        System.out.println("Max is.."+findMax(23,56,33,54,22,77,99,65));
+        findMax(23,56,33,54,22,77,99,65);
     }
 
 
