@@ -74,4 +74,12 @@ public class TestMaximumTest {
         Assert.assertEquals(max,findMaximum.findMaxThroughClass());
     }
 
+    @Test
+    public void whenMoreThan_ThreeParameters_ReturnMax() {
+        String max,a="Apple",b="Banana",c="Peach";
+        max=c;
+        FindMaximum findMaximum=new FindMaximum(a,b,c);
+        Assert.assertEquals(max,findMaximum.findMaxThroughClass());
+    }
+
 }

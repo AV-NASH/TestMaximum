@@ -15,11 +15,15 @@ public class FindMaximum<E extends  Comparable> {
             return findMax(value1,value2,value3);
         }
 
-    public static  <E extends  Comparable> E findMax(E number1, E number2, E number3) {
-        E max=number1;
-        if(max.compareTo(number2)<0) max=number2;
-        if(max.compareTo(number3)<0) max=number3;
-
+    public static  <E extends  Comparable> E findMax(E...value) {
+            E max = null;
+        if(value.length==0) System.out.println("No values to find maximum of");
+        else{
+            max=value[0];
+            for(int index=1;index<value.length;index++) {
+                if (max.compareTo(value[index]) < 0) max = value[index];
+            }
+        }
         return max;
     }
 

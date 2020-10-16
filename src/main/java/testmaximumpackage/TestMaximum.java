@@ -1,6 +1,8 @@
 package testmaximumpackage;
 
 
+import static testmaximumpackage.FindMaximum.findMax;
+
 public class TestMaximum {
     public static void main(String[] args) {
         FindMaximum findMaximumInt=new FindMaximum(12,13,14);
@@ -11,6 +13,8 @@ public class TestMaximum {
         System.out.println("Max of 3  Integer number is.. "+findMaximumInt.findMaxThroughClass());
         System.out.println("Max of 3 float number is.. "+findMaximumFloat.findMaxThroughClass());
         System.out.println("Max of 3 float number is.. "+findMaximumString.findMaxThroughClass());
+        System.out.println("When more than 3 parameters are passed..with values 23,56,33,54,22,77,99,65");
+        System.out.println("Max is.."+findMax(23,56,33,54,22,77,99,65));
     }
 
 
