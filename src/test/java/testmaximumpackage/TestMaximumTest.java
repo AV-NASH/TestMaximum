@@ -29,4 +29,27 @@ public class TestMaximumTest {
         Assert.assertEquals(max,testMaximum.findMax(a,b,c));
     }
 
+    @Test
+    public void whenMaxFloatAt_FirstPostion_ReturnMax() {
+        TestMaximum testMaximum=new TestMaximum();
+        Float max, a=6f,b=3f,c=1f;
+        max=a;
+        Assert.assertEquals(max,testMaximum.findMax(a,b,c));
+    }
+
+    @Test
+    public void whenMaxFloatAt_SecondPostion_ReturnMax() {
+        TestMaximum testMaximum=new TestMaximum();
+        Float max,a=6f,b=9f,c=8f;
+        max=b;
+        Assert.assertEquals(max,testMaximum.findMax(a,b,c));
+    }
+
+    @Test
+    public void whenMaxFloatAt_ThirdPostion_ReturnMax() {
+        TestMaximum testMaximum=new TestMaximum();
+        Float max,a=6f,b=3f,c=8f;        max=c;
+        Assert.assertEquals(max,testMaximum.findMax(a,b,c));
+    }
+
 }
